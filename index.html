@@ -2,18 +2,81 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>サンプルページ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旭情報サービス - ホーム</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #fff;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            background-color: #fff;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>私のウェブサイトへようこそ</h1>
+        <h1>旭情報サービス</h1>
     </header>
-    <section>
-        <h2>このページについて</h2>
-        <p>これはHTMLの基本的な構造を示すサンプルページです。HTMLはウェブページを作成するためのマークアップ言語です。</p>
-    </section>
+
+    <div class="container">
+        <section>
+            <h2>会社概要</h2>
+            <p>当社はITサービスを提供しております。</p>
+        </section>
+
+        <section>
+            <h2>サービス</h2>
+            <ul>
+                <li>開発</li>
+                <li>運用</li>
+                <li>ヘルプディスク</li>
+            </ul>
+        </section>
+    </div>
+
     <footer>
-        <p>詳しくは<a href="https://www.example.com">こちら</a>をご覧ください。</p>
+        <p>&copy; 2024 旭情報サービス. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
